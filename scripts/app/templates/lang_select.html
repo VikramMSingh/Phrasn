@@ -1,0 +1,38 @@
+
+{% extends "base.html" %}
+
+{% block title %}{{ _('Language and Eductation level') }}{% endblock %}
+
+{% block content %}
+<body>
+    <body>
+        <form method="POST" action="/select_options">
+            {{ form.hidden_tag() }}
+            <label for="std">{{ _('Education Level') }}</label>
+            <select name="std" id="std">
+                <option value="middle_school">{{ _('Middle School') }}</option>
+                <option value="high_school">{{ _('High School') }}</option>
+                <option value="university">{{ _('University') }}</option>
+            </select>
+    
+            <label for="lang">{{ _('Preferred Language') }}</label>
+            <select name="lang" id="lang">
+                <option value="en">{{ _('English') }}</option>
+                <option value="es">{{ _('Spanish') }}</option>
+                <option value="fr">{{ _('French') }}</option>
+                <option value="zh">{{_('Chinese') }}</option>
+                <option value="hi">{{_('Hindi') }}</option>
+                <option value="am">{{_('Amharic') }}</option>
+                <option value="ar">{{_('Arabic') }}</option>
+                <option value="id">{{_('Indonesian') }}</option>
+                <option value="sw">{{_('Swahili') }}</option>
+                <option value="ha">{{_('Hausa') }}</option>
+                <option value="bn">{{_('Bengali') }}</option>
+            </select>
+    
+            <input type="submit" value="{{ _('Submit') }}"> 
+        </form>
+    </body>
+    
+</body>
+{% endblock %}

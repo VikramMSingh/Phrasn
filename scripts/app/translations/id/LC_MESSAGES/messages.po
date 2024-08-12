@@ -1,0 +1,184 @@
+# Indonesian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "Bahasa"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "Keluar"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "Obrolan Baru"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "Obrolan PhrasnAI"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "Pilih mata pelajaran..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "Matematika"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "Fisika"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "Sejarah"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "Kimia"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "Ilmu Komputer"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "Biologi"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "Pengetahuan Umum"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "Ketik pertanyaan Anda di sini..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "Instruksi pergantian bahasa:"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac: Tekan Control + Option + Spasi"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows: Tekan tombol Windows + Spasi"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android: Ketuk ikon globe pada keyboard"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "Maaf, terjadi kesalahan. Silakan coba lagi."
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "Beranda"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "Bahasa dan Tingkat Pendidikan"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "Tingkat Pendidikan"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "Sekolah Menengah Pertama"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "Sekolah Menengah Atas"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "Universitas"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "Bahasa Pilihan"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "Bahasa Inggris"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "Bahasa Spanyol"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "Bahasa Perancis"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "Bahasa Jerman"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "Bahasa Mandarin"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "Bahasa Hindi"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "Bahasa Amharik"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "Bahasa Arab"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "Bahasa Indonesia"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "Bahasa Swahili"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "Bahasa Hausa"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "Bahasa Bengali"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "Kirim"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "Jendela Obrolan"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "Halo, Dunia!"

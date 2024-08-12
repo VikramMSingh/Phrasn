@@ -1,0 +1,17 @@
+
+{% extends "base.html" %}
+
+{% block title %}{{ _('Home') }}{% endblock %}
+
+{% block content %}
+<body>
+        <form method="POST" action="/select_options">
+            {{ form.hidden_tag() }}
+            {{form.lang.label}} {{ form.lang }}
+            <br>
+            {{form.std.label}}{{ form.std }}
+            <br>
+            {{ form.submit }}
+        </form>
+</body>
+{% endblock %}

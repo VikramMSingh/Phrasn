@@ -1,0 +1,184 @@
+# Amharic translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: am\n"
+"Language-Team: am <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "ቋንቋ"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "ውጣ"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "አዲስ ውይይት"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "PhrasnAI ውይይት"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "ርእስ ይምረጡ..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "ሂሳብ"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "ፊዚክስ"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "ታሪክ"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "ኬሚስትሪ"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "ኮምፒውተር ሳይንስ"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "ባዮሎጂ"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "አጠቃላይ እውቀት"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "ጥያቄዎን እዚህ ያስገቡ..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "የቋንቋ መቀያየሪያ መመሪያዎች:"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac: ኮንትሮል + ኦፕሽን + ስፔስ ይጫኑ"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows: የ Windows ቁልፍ + ስፔስ ይጫኑ"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android: በኪቦርድ ላይ ያለውን እንቅስቃሴ አድርጉ"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "ይቅርታ, ስህተት ተፈጥሯል። እባክዎን እንደገና ይሞክሩ።"
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "መነሻ"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "ቋንቋ እና የትምህርት ደረጃ"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "የትምህርት ደረጃ"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "መካከለኛ ትምህርት ቤት"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "ከፍተኛ ትምህርት ቤት"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "ዩኒቨርሲቲ"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "ተመራጭ ቋንቋ"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "እንግሊዝኛ"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "ስፓኒሽ"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "ፈረንሳይኛ"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "ጀርመንኛ"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "ቻይንኛ"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "ህንደኛ"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "አማርኛ"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "ዓረብኛ"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "ኢንዶኔዥኛ"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "ስዋሂሊ"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "ሃውሳ"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "ቤንጋሊ"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "አስገባ"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "የውይይት መስክ"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "ሰላም ዓለም!"

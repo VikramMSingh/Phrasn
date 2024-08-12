@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ session[language] }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History</title>
+</head>
+<body>
+    <h1>Chat History</h1>
+    <ul>
+    {% for item in history %}
+        <li>
+            <strong>Question:</strong> {{ item.question }}<br>
+            <strong>Answer:</strong> {{ item.answer }}<br>
+            <button onclick="replaySession('{{ item.question }}')">Replay</button>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <script>
+    function replaySession(question) {
+        // Display the answer without using tokens
+        const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+        fetch('/replay_session', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json',
+                        'X-CSRFToken': csrfToken
+             },
+            body: JSON.stringify({ question: question })
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.answer);  // Or update the UI in a more sophisticated way
+        });
+    }
+    </script>
+</body>
+</html>

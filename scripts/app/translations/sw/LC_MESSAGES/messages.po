@@ -1,0 +1,184 @@
+# Swahili translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:11-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sw\n"
+"Language-Team: sw <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "Lugha"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "Toka"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "Mazungumzo Mapya"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "Mazungumzo ya PhrasnAI"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "Chagua somo..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "Hisabati"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "Fizikia"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "Historia"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "Kemia"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "Sayansi ya Kompyuta"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "Baiolojia"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "Maarifa ya Jumla"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "Andika swali lako hapa..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "Maelekezo ya kubadilisha lugha:"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac: Bonyeza Control + Option + Space"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows: Bonyeza kitufe cha Windows + Space"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android: Gusa ikoni ya dunia kwenye kibodi"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "Samahani, kumetokea hitilafu. Tafadhali jaribu tena."
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "Nyumbani"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "Lugha na Kiwango cha Elimu"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "Kiwango cha Elimu"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "Shule ya Msingi ya Juu"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "Shule ya Upili"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "Chuo Kikuu"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "Lugha Inayopendelewa"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "Kiingereza"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "Kihispania"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "Kifaransa"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "Kijerumani"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "Kichina"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "Kihindi"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "Kiamhari"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "Kiarabu"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "Kiindonesia"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "Kiswahili"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "Kihausa"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "Kibengali"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "Wasilisha"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "Dirisha la Mazungumzo"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "Habari, Dunia!"

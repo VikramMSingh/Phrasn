@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="utf-8">
+    <title>{{ _('Chat Window') }}</title>
+</head>
+<body class="{{ 'french' if get_locale() == 'fr' else '' }}">
+    <h1>{{ _('Hello, World!')}}</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

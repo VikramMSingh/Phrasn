@@ -1,0 +1,184 @@
+# Bangla translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: bn\n"
+"Language-Team: bn <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "ভাষা"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "লগ আউট"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "নতুন চ্যাট"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "PhrasnAI চ্যাট"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "একটি বিষয় নির্বাচন করুন..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "গণিত"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "পদার্থবিজ্ঞান"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "ইতিহাস"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "রসায়ন"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "কম্পিউটার বিজ্ঞান"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "জীববিজ্ঞান"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "সাধারণ জ্ঞান"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "আপনার প্রশ্ন এখানে টাইপ করুন..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "ভাষা পরিবর্তনের নির্দেশাবলী:"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac: Control + Option + Space চাপুন"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows: Windows কী + Space চাপুন"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android: কীবোর্ডে গ্লোব আইকনে ট্যাপ করুন"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "দুঃখিত, একটি ত্রুটি ঘটেছে। দয়া করে আবার চেষ্টা করুন।"
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "বাড়ি"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "ভাষা এবং শিক্ষা স্তর"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "শিক্ষার স্তর"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "মিডল স্কুল"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "উচ্চ বিদ্যালয়"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "বিশ্ববিদ্যালয়"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "প্রিয় ভাষা"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "ইংরেজি"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "স্প্যানিশ"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "ফরাসি"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "জার্মান"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "চীনা"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "হিন্দি"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "আমহারিক"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "আরবি"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "ইন্দোনেশীয়"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "সোয়াহিলি"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "হাউসা"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "বাংলা"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "জমা দিন"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "চ্যাট উইন্ডো"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "হ্যালো, বিশ্ব!"

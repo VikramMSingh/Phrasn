@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="utf-8">
+    <title>{{ _('Hello, World!') }}</title>
+    <!-- Include web fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .chinese {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body class="{{ 'chinese' if get_locale() == 'zh' else '' }}">
+    <h1>{{ _('Hello, World!') }}</h1>
+    <form method="post" action="/">
+        {{ form.csrf_token() }}
+        {{ form.lang.label }}
+        {{ form.lang(class="form-control", onchange="this.form.submit()") }}
+    </form>
+</body>
+</html>
+

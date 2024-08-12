@@ -1,0 +1,185 @@
+# Arabic translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "اللغة"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "دردشة جديدة"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "دردشة PhrasnAI"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "اختر موضوعًا..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "الرياضيات"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "الفيزياء"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "التاريخ"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "الكيمياء"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "علوم الكمبيوتر"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "علم الأحياء"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "المعرفة العامة"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "اكتب سؤالك هنا..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "تعليمات تغيير اللغة:"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "ماك: اضغط على Control + Option + Space"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "ويندوز: اضغط على مفتاح Windows + Space"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "أندرويد: انقر على أيقونة الكرة الأرضية على لوحة المفاتيح"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "عذرًا، حدث خطأ. يرجى المحاولة مرة أخرى."
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "اللغة ومستوى التعليم"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "مستوى التعليم"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "المدرسة المتوسطة"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "المدرسة الثانوية"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "الجامعة"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "اللغة المفضلة"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "الإنجليزية"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "الإسبانية"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "الفرنسية"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "الألمانية"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "الصينية"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "الهندية"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "الأمهرية"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "العربية"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "الإندونيسية"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "السواحيلية"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "الهوسا"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "البنغالية"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "إرسال"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "نافذة الدردشة"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "مرحبا بالعالم!"

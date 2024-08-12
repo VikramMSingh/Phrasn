@@ -1,0 +1,184 @@
+# French translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-07 23:29-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "Langue"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "Nouvelle discussion"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "Discussion PhrasnAI"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "Choisissez un sujet..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "Mathématiques"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "Physique"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "Histoire"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "Chimie"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "Informatique"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "Biologie"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "Culture générale"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "Tapez votre question ici..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "Instructions pour changer de langue :"
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac : Appuyez sur Contrôle + Option + Espace"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows : Appuyez sur la touche Windows + Espace"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android : Appuyez sur l'icône du globe sur le clavier"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "Désolé, une erreur est survenue. Veuillez réessayer."
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "Langue et niveau d'éducation"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "Niveau d'éducation"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "Collège"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "Lycée"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "Université"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "Langue préférée"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "Anglais"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "Français"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "Allemand"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "Chinois"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "Hindi"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "Amharique"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "Arabe"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "Indonésien"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "Swahili"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "Haoussa"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "Bengali"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "Soumettre"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "Fenêtre de discussion"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "Bonjour, Monde !"

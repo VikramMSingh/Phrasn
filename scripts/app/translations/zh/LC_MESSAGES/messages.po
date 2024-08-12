@@ -1,0 +1,184 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-12 17:52-0400\n"
+"PO-Revision-Date: 2024-08-09 02:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/advanced_chat.html:127 templates/base.html:43
+msgid "Language"
+msgstr "语言"
+
+#: templates/advanced_chat.html:137 templates/base.html:60
+msgid "Logout"
+msgstr "退出登录"
+
+#: templates/advanced_chat.html:146
+msgid "New Chat"
+msgstr "新聊天"
+
+#: templates/advanced_chat.html:152
+msgid "PhrasnAI Chat"
+msgstr "PhrasnAI 聊天"
+
+#: templates/advanced_chat.html:154
+msgid "Choose a subject..."
+msgstr "选择一个科目..."
+
+#: templates/advanced_chat.html:155
+msgid "Math"
+msgstr "数学"
+
+#: templates/advanced_chat.html:156
+msgid "Physics"
+msgstr "物理"
+
+#: templates/advanced_chat.html:157
+msgid "History"
+msgstr "历史"
+
+#: templates/advanced_chat.html:158
+msgid "Chemistry"
+msgstr "化学"
+
+#: templates/advanced_chat.html:159
+msgid "Computer Science"
+msgstr "计算机科学"
+
+#: templates/advanced_chat.html:160
+msgid "Biology"
+msgstr "生物学"
+
+#: templates/advanced_chat.html:161
+msgid "General Knowledge"
+msgstr "常识"
+
+#: templates/advanced_chat.html:167
+msgid "Type your question here..."
+msgstr "在这里输入您的问题..."
+
+#: templates/advanced_chat.html:172
+msgid "Language switching instructions:"
+msgstr "切换语言的说明："
+
+#: templates/advanced_chat.html:173
+msgid "Mac: Press Control + Option + Space"
+msgstr "Mac：按 Control + Option + 空格"
+
+#: templates/advanced_chat.html:174
+msgid "Windows: Press Windows key + Space"
+msgstr "Windows：按 Windows 键 + 空格"
+
+#: templates/advanced_chat.html:175
+msgid "Android: Tap the globe icon on the keyboard"
+msgstr "Android：点击键盘上的地球图标"
+
+#: templates/advanced_chat.html:268
+msgid "Sorry, an error occurred. Please try again."
+msgstr "抱歉，发生错误。请再试一次。"
+
+#: templates/base.html:7
+msgid "PhrashnAI"
+msgstr "PhrashnAI"
+
+#: templates/lang_select copy.html:4
+msgid "Home"
+msgstr "主页"
+
+#: templates/lang_select.html:4
+msgid "Language and Eductation level"
+msgstr "语言和教育水平"
+
+#: templates/lang_select.html:11
+msgid "Education Level"
+msgstr "教育水平"
+
+#: templates/lang_select.html:13
+msgid "Middle School"
+msgstr "初中"
+
+#: templates/lang_select.html:14
+msgid "High School"
+msgstr "高中"
+
+#: templates/lang_select.html:15
+msgid "University"
+msgstr "大学"
+
+#: templates/lang_select.html:18
+msgid "Preferred Language"
+msgstr "首选语言"
+
+#: templates/lang_select.html:20
+msgid "English"
+msgstr "英语"
+
+#: templates/lang_select.html:21
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: templates/lang_select.html:22
+msgid "French"
+msgstr "法语"
+
+#: templates/lang_select.html:23
+msgid "German"
+msgstr "德语"
+
+#: templates/lang_select.html:24
+msgid "Chinese"
+msgstr "中文"
+
+#: templates/lang_select.html:25
+msgid "Hindi"
+msgstr "印地语"
+
+#: templates/lang_select.html:26
+msgid "Amharic"
+msgstr "阿姆哈拉语"
+
+#: templates/lang_select.html:27
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: templates/lang_select.html:28
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+#: templates/lang_select.html:29
+msgid "Swahili"
+msgstr "斯瓦希里语"
+
+#: templates/lang_select.html:30
+msgid "Hausa"
+msgstr "豪萨语"
+
+#: templates/lang_select.html:31
+msgid "Bengali"
+msgstr "孟加拉语"
+
+#: templates/lang_select.html:34
+msgid "Submit"
+msgstr "提交"
+
+#: templates/qachat.html:5
+msgid "Chat Window"
+msgstr "聊天窗口"
+
+#: templates/qachat.html:8 templates/test_page.html:5
+#: templates/test_page.html:19
+msgid "Hello, World!"
+msgstr "你好，世界！"
