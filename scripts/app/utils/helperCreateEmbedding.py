@@ -17,10 +17,12 @@ import vertexai
 from vertexai.preview import tokenization
 from google.cloud import aiplatform
 from google.oauth2 import service_account
+from dotenv import load_dotenv
 
+load_dotenv('../.env')
 PROJECT_ID = "gen-lang-client-0084223728"  # @param {type:"string"}
 LOCATION = "us-central1"  # @param {type:"string"}
-key_path = '/Users/vikramsingh/Documents/Projects/genAI/scripts/app/gen-lang-client-0084223728-c19041d03b59.json'
+key_path = os.getenv('GKY')
 cred = service_account.Credentials.from_service_account_file(key_path)
 vertexai.init(project=PROJECT_ID, location=LOCATION, credentials=cred)
 #test - remove below for vertex ai embeddings
