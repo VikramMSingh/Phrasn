@@ -23,7 +23,7 @@ app.secret_key = '4345'
 app.config.from_object(Config)
 csrf=CSRFProtect()
 csrf.init_app(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SDU')
 db = SQLAlchemy(app)
 Migrate(app,db)
 load_dotenv('.env')
