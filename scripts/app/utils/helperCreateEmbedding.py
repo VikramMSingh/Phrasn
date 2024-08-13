@@ -153,7 +153,7 @@ def deployIndex(subject,index_name):
     return deployed_index
 
 def get_context_from_vertex_ai(subject, question):
-    index_endpoints = aiplatform.MatchingEngineIndexEndpoint.list(filter="display_name=physics")
+    index_endpoints = aiplatform.MatchingEngineIndexEndpoint.list(filter=f"display_name={subject}")
     if not index_endpoints:
             return 'No context - use references and provide accurate answer'
 
@@ -175,7 +175,7 @@ def get_context_from_vertex_ai(subject, question):
         deployed_index_id=deployed_index.id,
         queries=[query_vector],
         num_neighbors=5,
-		return_full_datapoint=True,
+		return_full_datapoint=False,
     )
     print(response)
     context = response if response else 'No context provided - use references and provide accurate answers'
@@ -245,8 +245,8 @@ if __name__=='__main__':
 	#b = splitDocs(a)
 	#c = countTokens(b)
 	#d = createJson(b,'physics')
-	d = uploadEmbeddings('physics','gs://phrashnai_bucket/physics.json')
+	#d = uploadEmbeddings('physics','gs://phrashnai_bucket/physics.json')
 	#d = createIndexEndpoint('physics')
 	#d = deployIndex('physics','')
-	print(d)
+	print('Done')
 	
