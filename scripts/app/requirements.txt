@@ -147,6 +147,7 @@ posthog
 proto-plus
 protobuf
 psutil
+psycopg2-binary
 pyasn1
 pyasn1_modules
 pyclipper
