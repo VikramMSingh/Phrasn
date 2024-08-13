@@ -26,7 +26,7 @@ csrf.init_app(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
 Migrate(app,db)
-load_dotenv('/Users/vikramsingh/Documents/Projects/genAI/scripts/.env')
+load_dotenv('.env')
 app.config['KEY'] = os.getenv('KY')
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['SESSION_TYPE'] = 'filesystem'
