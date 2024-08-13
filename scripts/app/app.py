@@ -32,7 +32,7 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=60)
-app.config['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/vikramsingh/Documents/Projects/genAI/scripts/app/gen-lang-client-0084223728-c19041d03b59.json'
+app.config['GOOGLE_APPLICATION_CREDENTIALS'] = os.getenv('JSON_FILE')
 oauth = OAuth(app)
 #oauth.init_app(app)
 google = oauth.register(
@@ -62,4 +62,4 @@ babel.init_app(app, locale_selector=get_locale)
 from api.routes import *
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
