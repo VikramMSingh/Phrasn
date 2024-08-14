@@ -57,5 +57,6 @@ The docs for gemini are great and setting it up is easy - but vertex ai and some
 
 Attaching the screenshot from the email from google cloud:
 
-<img width="907" alt="image" src="https://github.com/user-attachments/assets/ced77876-7fdd-4892-a6b1-aadca4d28f4d">
+<img width="1424" alt="image" src="https://github.com/user-attachments/assets/84dc75ed-3d9a-4468-a7d8-1c64ef3ec1f1">
+
 
