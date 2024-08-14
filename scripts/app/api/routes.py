@@ -100,7 +100,8 @@ def process_chat():
         context = get_context_from_vertex_ai(subject, translated_question)
         #context = f"{subject}"
         logger.info(f"Context for {subject}")
-    print(context)
+    else:
+        context = 'No context provided - use references and provide accurate answers'
 
     prompt_en = generate_prompt(translated_question, context, subject, l)
     # Generate answer
