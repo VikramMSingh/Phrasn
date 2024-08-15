@@ -38,24 +38,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ _('Language') }}
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='en') }}">English</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='es') }}">Español</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='fr') }}">Français</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='hi') }}">हिन्दी</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='bn') }}">বাংলা</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='ha') }}">Hausa</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='id') }}">Bahasa Indonesia</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='sw') }}">Kiswahili</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='pt') }}">Português</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='de') }}">Deutsch</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('select_options', language='zh') }}">中文</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('logout') }}">{{ _('Logout') }}</a>
                     </li>
